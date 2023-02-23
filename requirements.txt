@@ -1,0 +1,20 @@
+
+
+"""
+#paquetes principales
+pip install pyside6
+pip install mysql-connector-python
+pip install fpdf
+#en caso de error probar realizando el upgrade o reinstalando una version anterior de mysql-conector
+pip install --upgrade pyside6
+pip install -- upgrade fpdf
+pip3 install mysql-connector-python==8.0.29
+
+//administrador
+usuario 1750974550
+contraseña David_2405
+
+//empleado 
+usuario 111111111
+contraseña 11111111
+"""

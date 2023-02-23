@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="iconos">
+    <file>arrow-208-32.ico</file>
+    <file>arrow-29-48.ico</file>
+    <file>2.png</file>
+    <file>fondo_gris.png</file>
+    <file>Logo_Blanco.png</file>
+    <file>bar-chart.svg</file>
+    <file>home.svg</file>
+    <file>user.svg</file>
+    <file>agregar-usuario (1).png</file>
+    <file>agregar-usuario.png</file>
+    <file>analitica.png</file>
+    <file>buscar.png</file>
+    <file>documento.png</file>
+    <file>editar.png</file>
+    <file>eliminar-usuario (1).png</file>
+    <file>exportar-archivo.png</file>
+    <file>guardar-el-archivo.png</file>
+    <file>planificacion.png</file>
+    <file>reservacion-en-linea (1).png</file>
+    <file>reservacion-en-linea.png</file>
+    <file>servicio-al-cliente.png</file>
+    <file>usuario.png</file>
+  </qresource>
+</RCC>
