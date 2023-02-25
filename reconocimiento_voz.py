@@ -21,6 +21,8 @@ programs ={
     
 }
 reconocimiento_voz = sr.Recognizer()
+reconocimiento_voz.energy_threshold = 1568
+reconocimiento_voz.dynamic_energy_threshold = True
 while True:
     """TTS"""
     tts = gTTS(text="Hola soy viernes en que puedo ayudarte?",
@@ -59,6 +61,7 @@ while True:
                 
                 pyw.playonyt(text)
                 os.system("pause")
+                os.system("read -p 'Press Enter to continue...' var")
                 
             elif "define" in text:
                 text = text.replace("define","")
@@ -71,6 +74,7 @@ while True:
                 playsound(audio_name)
                 os.remove(audio_name)
                 os.system("pause")
+                os.system("read -p 'Press Enter to continue...' var")
                 
             elif "abre" in text:
                 for site in sites:
@@ -84,6 +88,7 @@ while True:
                         #linea de comandos sub.call
                         sub.call(f"start brave.exe {sites[site]}",shell=True)
                         os.system("pause")
+                        os.system("read -p 'Press Enter to continue...' var")
                 for program in programs:
                     if program in text:
                         """TTS"""
@@ -94,6 +99,7 @@ while True:
                         os.remove(audio_name)
                         os.startfile(programs[program])
                         os.system("pause")
+                        os.system("read -p 'Press Enter to continue...' var")
             else:
                 """TTS"""
                 tts = gTTS(text="No he entendido que has dicho acercate mas al microfono y repite por favor", lang='es', slow=False)
